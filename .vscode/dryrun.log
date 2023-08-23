@@ -1,0 +1,8 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/pavan/Desktop/resh-master'
+gcc -g -o a.out main.c linked_lists.c ls.c pinfo.c parse.c command_processing.c piping.c technical_functions.c shell_basics.c -I. 
+make: Leaving directory '/home/pavan/Desktop/resh-master'
+ 
+make: Warning: File 'pinfo.c' has modification time 12614 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
